@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "akr9757"
+    bucket = "akrs-bucket"
     key    = "aws-parameters/terraform.statefile"
     region = "us-east-1"
   }
