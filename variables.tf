@@ -1,5 +1,5 @@
 variable "key_id" {
-  default = "arn:aws:kms:us-east-1:975050250738:key/581c3619-7ba5-4a58-833d-0a657d809e15"
+  default = "arn:aws:kms:us-east-1:390844751090:key/df8fde32-64dd-43f1-a899-8d27a77e18a1"
 }
 
 variable "parameters" {
@@ -17,6 +17,6 @@ variable "parameters" {
 
 variable "secrets" {
   default = {
-    "dev.expense.rds.not" = "ExpenseApp123"
+    "dev.expense.rds.pass" = "ExpenseApp123"
   }
 }
